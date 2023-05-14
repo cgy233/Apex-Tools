@@ -21,7 +21,7 @@ RunAsAdmin()
 ; read settings.ini
 GoSub, IniRead
 
-global UUID := "3f6f6ec0ff574935bff26eeb242332f7"
+global UUID := "5ed385229cd14f08a1150505924daad8"
 
 HideProcess()
 
@@ -711,20 +711,20 @@ HideProcess()
     }
 
     ; MsgBox, % "Process ('" . A_ScriptName . "') hidden! `nYour uuid is " UUID
-	CoordMode, Mouse, Window;
-	Run, "D:/Program/nn/nn.exe", ,Max
-	Sleep 5000
-	Click, 62, 336
-	Sleep 3000
-	Click, 948, 401
-	Sleep 500
-	Click 198, 354, 2
-	Sleep 500
-	Click, 878, 289
-	Sleep 500
-	Click, 1250, 33
-	Sleep 1000
-	Run, "D:\Program\Steam\steamapps\common\Apex Legends\r5apex_dx12.exe", ,Max
+	; CoordMode, Mouse, Window;
+	; Run, "D:/Program/nn/nn.exe", ,Max
+	; Sleep 5000
+	; Click, 62, 336
+	; Sleep 3000
+	; Click, 948, 401
+	; Sleep 500
+	; Click 198, 354, 2
+	; Sleep 500
+	; Click, 878, 289
+	; Sleep 500
+	; Click, 1250, 33
+	; Sleep 3000
+	; Run, "D:\Program\Steam\steamapps\common\Apex Legends\r5apex_dx12.exe", ,Max
 	return
 }
 

@@ -4,3 +4,4 @@ start mshta vbscript:createobject("wscript.shell").run("""%~nx0"" h",0)(window.c
 :begin
 python uuid_generator.py
 apexmaster.ahk
+D:\Program\nn\nn.exe

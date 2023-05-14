@@ -17,3 +17,4 @@ python/output
 # AHK
 AHK/bin
 AHK/src/avlog/nn_Main_*.log
+AHK/src/nnupdatelog.txt
